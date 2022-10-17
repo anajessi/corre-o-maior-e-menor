@@ -1,1 +1,50 @@
-# corre-o-maior-e-menor
+ALGORITMO COMPARAÇÃO
+
+DECLARAÇÃO
+    VALOR1: INTEIRO;
+    VALOR2: INTEIRO;
+    MAIOR: INTEIRO;
+    MENOR: INTEIRO;
+    
+INICIO
+    ESCREVA("DIGITE UM NUMERO");
+    LEIA(VALOR1);
+    ESCREVA("DIGITE OUTRO NUMERO");
+    LEIA(VALOR2);
+    SE(VALOR1 > VALOR2) ENTAO
+        ESCREVA("VALOR MAIOR:");
+        ESCREVA(VALOR1);
+        ESCREVA("VALOR MENOR");
+        ESCREVA(VALOR2);
+    SENAO
+        SE(VALOR1 = VALOR2) ENTAO
+        MAIOR<-VALOR2;
+        MENOR<-VALOR1;
+            ESCREVA("OS VALORES SAO IGUAIS");
+        SENAO
+        MAIOR<-VALOR2;
+        MENOR<-VALOR1;
+           ESCREVA("VALOR MAIOR:");
+           ESCREVA(VALOR2);
+           ESCREVA("VALOR MENOR:");
+           ESCREVA(VALOR1);
+        FIM-SE
+    FIM-SE
+    
+    ESCREVA("DIGITE OUTRO VALOR");
+    LEIA(VALOR);
+    SE (VALOR1>MAIOR) ENTAO
+        MAIOR<-VALOR1;
+        ESCREVA("VALOR MAIOR");
+        ESCREVA(MAIOR);
+        ESCREVA("VALOR MENOR");
+        ESCREVA(MENOR);
+    SENAO
+        MENOR<-VALOR1;
+        ESCREVA("VALOR MAIOR");
+        ESCREVA(MAIOR);
+        ESCREVA("VALOR MENOR");
+        ESCREVA(MENOR);
+    FIM-SE
+    
+    
